@@ -4,31 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+    <link rel="shortcut icon" href="img/calculadora.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <main>
-        <div class="visor">1+2+3+4</div>
+        <div class="visor">0</div>
         <div class="teclado">
             <button class="btn_limpar">C</button>
-            <button class="btn" data-paren_esq="(">(</button>
-            <button class="btn" data-paren_dir=")">)</button>
-            <button class="btn" data-operador="/">/</button>
+            <button class="btn nao_num" data-paren_esq="(">(</button>
+            <button class="btn nao_num" data-paren_dir=")">)</button>
+            <button class="btn nao_num" data-operador="/">/</button>
             <button class="btn" data-num="7">7</button>
             <button class="btn" data-num="8">8</button>
             <button class="btn" data-num="9">9</button>
-            <button class="btn" data-operador="*">X</button>
+            <button class="btn nao_num" data-operador="*">x</button>
             <button class="btn" data-num="4">4</button>
             <button class="btn" data-num="5">5</button>
             <button class="btn" data-num="6">6</button>
-            <button class="btn" data-operador="-">-</button>
+            <button class="btn nao_num" data-operador="-">-</button>
             <button class="btn" data-num="1">1</button>
             <button class="btn" data-num="2">2</button>
             <button class="btn" data-num="3">3</button>
-            <button class="btn" data-operador="+">+</button>
+            <button class="btn nao_num" data-operador="+">+</button>
             <button class="btn" data-num="0">0</button>
             <button class="btn" data-virgula=",">,</button>
-            <button class="btn_resultado">=</button>
+            <button class="btn_resultado nao_num">=</button>
         </div>
     </main>
 
