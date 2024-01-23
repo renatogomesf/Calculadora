@@ -63,8 +63,10 @@ main{
 }
 
 .btn,
+.btn_operador,
 .btn_limpar,
-.btn_resultado{
+.btn_resultado,
+.btn_virgula{
     border-radius: 10px;
     border: none;
     box-shadow: 0px 0px 3px black;
@@ -74,8 +76,10 @@ main{
 }
 
 .btn:hover,
+.btn_operador:hover,
 .btn_limpar:hover,
-.btn_resultado:hover{
+.btn_resultado:hover,
+.btn_virgula:hover{
     scale: 0.96;
     box-shadow: 0px 0px 2px black;
     transition: 0.1s;
@@ -86,12 +90,23 @@ main{
     color: white;
 }
 
-.nao_num{
+.btn_operador,
+.nao_num,
+.btn_resultado{
     background-color: var(--cor1);
     color: white;
+}
+
+.virgula{
+    background-color: #f0f0f0;
+    color: black;
 }
 
 .copy{
     margin: 20px 0px;
     color: white;
+}
+
+.resultado{
+    display: none;
 }
