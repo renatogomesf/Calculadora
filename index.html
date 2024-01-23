@@ -9,30 +9,33 @@
 </head>
 <body>
     <main>
-        <div class="visor">0</div>
+        <div class="visor"></div>
+        <div class="resultado"></div>
         <div class="teclado">
             <button class="btn_limpar">C</button>
-            <button class="btn nao_num" data-paren_esq="(">(</button>
-            <button class="btn nao_num" data-paren_dir=")">)</button>
-            <button class="btn nao_num" data-operador="/">/</button>
-            <button class="btn" data-num="7">7</button>
-            <button class="btn" data-num="8">8</button>
-            <button class="btn" data-num="9">9</button>
-            <button class="btn nao_num" data-operador="*">x</button>
-            <button class="btn" data-num="4">4</button>
-            <button class="btn" data-num="5">5</button>
-            <button class="btn" data-num="6">6</button>
-            <button class="btn nao_num" data-operador="-">-</button>
-            <button class="btn" data-num="1">1</button>
-            <button class="btn" data-num="2">2</button>
-            <button class="btn" data-num="3">3</button>
-            <button class="btn nao_num" data-operador="+">+</button>
-            <button class="btn" data-num="0">0</button>
-            <button class="btn" data-virgula=",">,</button>
+            <button class="btn nao_num" data-content="(">(</button>
+            <button class="btn nao_num" data-content=")">)</button>
+            <button class="btn nao_num" data-content="/">/</button>
+            <button class="btn" data-content="7">7</button>
+            <button class="btn" data-content="8">8</button>
+            <button class="btn" data-content="9">9</button>
+            <button class="btn nao_num" data-content="*">x</button>
+            <button class="btn" data-content="4">4</button>
+            <button class="btn" data-content="5">5</button>
+            <button class="btn" data-content="6">6</button>
+            <button class="btn nao_num" data-content="-">-</button>
+            <button class="btn" data-content="1">1</button>
+            <button class="btn" data-content="2">2</button>
+            <button class="btn" data-content="3">3</button>
+            <button class="btn nao_num" data-content="+">+</button>
+            <button class="btn" data-content="0">0</button>
+            <button class="btn" data-content=".">,</button>
             <button class="btn_resultado nao_num">=</button>
         </div>
     </main>
-
+    <div class="copy">
+        <p>&copy; Renato Gomes</p>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>

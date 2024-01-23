@@ -7,7 +7,6 @@
     padding: 0px;
 
     font-family: 'Nunito', sans-serif;
-    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -23,6 +22,7 @@ body{
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--cor4);
@@ -45,7 +45,9 @@ main{
     border-radius: 10px;
     background-color: var(--cor3);
     width: 90%;
+    height: 30px;
     text-align: end;
+    font-size: 1.5rem;
 }
 
 .teclado{
@@ -68,6 +70,7 @@ main{
     box-shadow: 0px 0px 3px black;
     cursor: pointer;
     transition: 0.1s;
+    font-size: 1.5rem;
 }
 
 .btn:hover,
@@ -85,5 +88,10 @@ main{
 
 .nao_num{
     background-color: var(--cor1);
+    color: white;
+}
+
+.copy{
+    margin: 20px 0px;
     color: white;
 }
