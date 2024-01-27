@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+
+    <!-- FAVICON -->
     <link rel="shortcut icon" href="img/calculadora.png" type="image/x-icon">
+
+    <!-- CSS GERAL -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <main>
+        <!-- TELA ONDE MOSTRA O CÁLCULO E RESULTADO -->
         <div class="visor"></div>
+
+        <!-- DIV USADA PARA INSERIR O "data-content" PARA USAR NA FUNÇÃO "eval()" -->
         <div class="resultado"></div>
+
+        <!-- TODOS OS BOTÕES DA CALCULADORA -->
         <div class="teclado">
             <button class="btn_limpar">C</button>
             <button class="btn nao_num" data-content="(">(</button>
@@ -33,9 +42,12 @@
             <button class="btn_resultado">=</button>
         </div>
     </main>
+
+    <!-- COPYRIGHT -->
     <div class="copy">
         <p>&copy; Renato Gomes</p>
     </div>
+    
     <script src="js/script.js"></script>
 </body>
 </html>

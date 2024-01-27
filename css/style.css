@@ -27,6 +27,9 @@ body{
     align-items: center;
     background-color: var(--cor4);
 }
+
+
+/*----- MAIN -----*/
 main{
     padding: 20px;
     border-radius: 10px;
