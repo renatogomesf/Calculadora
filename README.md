@@ -7,7 +7,7 @@ https://renatogomesf.github.io/Calculadora/
 
 Calculadora é uma aplicação desenvolvida durante o curso de **JavaScript** do canal [CFB Cursos](https://www.youtube.com/watch?v=E4DBTqgxHGM&list=PLx4x_zx8csUg_AxxbVWHEyAJ6cBdsYc0T&index=1&ab_channel=CFBCursos). A aplicação é totalmente responsiva, se adaptando a vários tamanhos de telas.
 
-O projeto consiste em uma calculadora simples que permiter executar operações de soma, subtração, multiplicação e divisão.
+O projeto consiste em uma calculadora simples que permite executar operações de soma, subtração, multiplicação e divisão.
 
 ## Layout mobile
 
